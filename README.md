@@ -25,3 +25,14 @@ User Repository Details 1
 User Repository Details 2
 
 ![App Screenshot](https://i.postimg.cc/XqynNBnd/Screenshot-2023-09-02-at-12-44-06-PM.png)
+
+
+## Installation
+
+Install node modules by running <br>
+```npm install``` or ```yarn```
+
+Run Server with one of following command <br>
+```npm run start``` or ```yarn start```
+
+Open http://localhost:3000 on your browser
