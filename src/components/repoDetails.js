@@ -17,11 +17,11 @@ import { humanFileSize } from "../utils";
 const illustrationImage = "https://i.postimg.cc/13SKM5Qm/Bitmap.png";
 const tabs = ['Yml Files', 'Webhooks'];
 
-const RepoDetails = ({ repoData = {} }) => {
+const RepoDetails = ({ token, repoData = {} }) => {
 	const { loading, data: result } = useQuery(GET_REPO_DETAILS, {
 		skip: repoData?.repoName === undefined, 
 		variables: {
-			token: "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",
+			token,
 			...repoData
 		},
 	});

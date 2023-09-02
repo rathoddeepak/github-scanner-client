@@ -15,10 +15,10 @@ import { humanFileSize } from "../utils";
 
 const githubIconURL = "https://img.icons8.com/?size=90&id=62856&format=png";
 
-const RepoList = ({ onSelect }) => {
+const RepoList = ({ onSelect, token }) => {
 	const { loading, data } = useQuery(GET_REPOS, {
 		variables: {
-			token: "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",
+			token,
 		},
 	});
 	const { repositories } = data || {};
