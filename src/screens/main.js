@@ -14,7 +14,7 @@ const MainScreen = () => {
 	const { height, width } = useWindowDimensions();
 	const [currentRepo, setCurrentRepo] = useState(null);
 	const [currentToken, setCurrentToken] = useState(
-		"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"
+		"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"
 	);
 	return (
 		<View style={{ height, width }}>
