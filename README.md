@@ -6,8 +6,8 @@ Frontend for Github Scanner in **ReactJS** with **apollo and graphql**
 
 ## Demo
 
-Client url
-https://rathoddeepak.github.io/githubscannerclient
+Video
+https://youtu.be/vP4wuSKpxyA
 
 
 ## Screenshots
